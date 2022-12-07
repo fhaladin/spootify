@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spootify</title>
+    <style>
+      #app {
+        padding: 20px;
+        transition: padding 0.2s ease-in-out;
+      }
+
+      @media only screen and (max-width: 1000px) {
+        #app {
+          padding: 10px !important;
+        }
+      }
+
+      @media only screen and (max-height: 1000px) {
+        #app {
+          padding: 10px !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" style="padding: 20px"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
